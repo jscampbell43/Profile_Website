@@ -38,20 +38,19 @@ export default function ContactPage() {
 
           <div style={styles.contactItem}>
             <h3 style={styles.contactLabel}>Email</h3>
-            <p style={styles.contactValue}>your.email@example.com</p>
+            <p style={styles.contactValue}>jscampbell43@gmail.com</p>
           </div>
 
           <div style={styles.contactItem}>
             <h3 style={styles.contactLabel}>Phone</h3>
-            <p style={styles.contactValue}>+1 (555) 123-4567</p>
+            <p style={styles.contactValue}>(831) 345-7118</p>
           </div>
 
           <div style={styles.socialLinks}>
             <h3 style={styles.contactLabel}>Connect</h3>
             <div style={styles.socialButtons}>
-              <a href="#" style={styles.socialButton}>GitHub</a>
-              <a href="#" style={styles.socialButton}>LinkedIn</a>
-              <a href="#" style={styles.socialButton}>Twitter</a>
+              <a href="https://github.com/jscampbell43" target="_blank" rel="noopener noreferrer" style={styles.socialButton}>GitHub</a>
+              <a href="https://linkedin.com/in/js-campbell" target="_blank" rel="noopener noreferrer" style={styles.socialButton}>LinkedIn</a>
             </div>
           </div>
         </div>

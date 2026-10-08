@@ -1,31 +1,24 @@
 export default function ProjectsPage() {
   const projects = [
     {
-      title: 'Project Title 1',
-      description: 'A brief description of what this project does and the problem it solves.',
-      techStack: ['React', 'Node.js', 'PostgreSQL'],
-      githubLink: '#',
+      title: 'SportsWZRD Website',
+      description: 'Backend Developer Capstone Project - Added a game weekly schedule grid feature to allow users to navigate games per week throughout the season. Implemented database access logic functionality using Python and Django QuerySets (MySQL) to reduce page load time.',
+      techStack: ['Python', 'Django', 'MySQL'],
+      githubLink: 'https://github.com/jscampbell43',
       liveLink: '#',
     },
     {
-      title: 'Project Title 2',
-      description: 'A brief description of what this project does and the problem it solves.',
-      techStack: ['Next.js', 'TypeScript', 'AWS'],
-      githubLink: '#',
+      title: '3D Printing Job Request/Response App',
+      description: 'Frontend Developer Android Mobile Device Application - Created Android activities for login, registering, and creating/viewing/searching projects. Created API interfaces in Java to query backend database for user and project information.',
+      techStack: ['Java', 'Android', 'XML', 'API'],
+      githubLink: 'https://github.com/jscampbell43',
       liveLink: '#',
     },
     {
-      title: 'Project Title 3',
-      description: 'A brief description of what this project does and the problem it solves.',
-      techStack: ['Python', 'FastAPI', 'Docker'],
-      githubLink: '#',
-      liveLink: '#',
-    },
-    {
-      title: 'Project Title 4',
-      description: 'A brief description of what this project does and the problem it solves.',
-      techStack: ['React', 'MongoDB', 'Express'],
-      githubLink: '#',
+      title: 'Hotel and Resort Website',
+      description: 'Frontend Developer - Implemented random image generator code logic for events page using JavaScript and jQuery. Designed look and feel of overall website and individual pages using CSS and Bootstrap. Created routes for individual website pages using JavaScript.',
+      techStack: ['JavaScript', 'jQuery', 'CSS', 'Bootstrap'],
+      githubLink: 'https://github.com/jscampbell43',
       liveLink: '#',
     },
   ];

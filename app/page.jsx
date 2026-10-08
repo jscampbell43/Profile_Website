@@ -44,9 +44,12 @@ export default function HomePage() {
           <div style={styles.skillCategory}>
             <h3 style={styles.skillTitle}>Languages</h3>
             <ul style={styles.skillList}>
-              <li>JavaScript</li>
-              <li>TypeScript</li>
+              <li>C++</li>
+              <li>Java</li>
               <li>Python</li>
+              <li>JavaScript</li>
+              <li>SQL</li>
+              <li>Bash (Linux)</li>
             </ul>
           </div>
           <div style={styles.skillCategory}>
@@ -54,23 +57,28 @@ export default function HomePage() {
             <ul style={styles.skillList}>
               <li>React</li>
               <li>Next.js</li>
-              <li>Tailwind CSS</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>jQuery</li>
+              <li>Android (XML)</li>
             </ul>
           </div>
           <div style={styles.skillCategory}>
             <h3 style={styles.skillTitle}>Backend</h3>
             <ul style={styles.skillList}>
               <li>Node.js</li>
+              <li>Django</li>
               <li>Express</li>
-              <li>FastAPI</li>
+              <li>Supabase</li>
             </ul>
           </div>
           <div style={styles.skillCategory}>
-            <h3 style={styles.skillTitle}>Databases & DevOps</h3>
+            <h3 style={styles.skillTitle}>Databases & Tools</h3>
             <ul style={styles.skillList}>
-              <li>PostgreSQL</li>
-              <li>Docker</li>
-              <li>AWS</li>
+              <li>MySQL</li>
+              <li>Quick (Automation)</li>
+              <li>Git</li>
             </ul>
           </div>
         </div>
