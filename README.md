@@ -14,33 +14,33 @@ A personal portfolio website built with Next.js 16 and React 19.
 ### Prerequisites
 
 - Node.js 18+ installed
-- npm or yarn package manager
+- pnpm package manager
 
 ### Installation
 
 1. Install dependencies:
 ```bash
-npm install
+pnpm install
 ```
 
 2. Run the development server:
 ```bash
-npm run dev
+pnpm dev
 ```
 
 3. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ## Available Scripts
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm start` - Start production server
+- `pnpm dev` - Start development server
+- `pnpm build` - Build for production
+- `pnpm start` - Start production server
 
 ## Tech Stack
 
-- Next.js 16.2.9
-- React 19.2.7
-- React DOM 19.2.7
+- Next.js 16.4.0
+- React 19.3.0
+- React DOM 19.3.0
 
 ## Project Structure
 

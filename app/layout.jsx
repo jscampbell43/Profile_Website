@@ -1,3 +1,5 @@
+import Navigation from './navigation';
+
 export const metadata = {
   title: 'James Campbell - Software Engineer',
   description: 'Personal portfolio website of James Campbell, a Software Engineer',
@@ -6,7 +8,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navigation />
+        {children}
+      </body>
     </html>
   );
 }
